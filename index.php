@@ -25,6 +25,10 @@
 
     $payment1 = new JazzCash();
     echo $payment1->pay(3000);
+    echo $payment1->pay(0);
+    echo $payment1->pay(-1000);
+    echo $payment1->pay(0);
+
     ?>
 </body>
 
